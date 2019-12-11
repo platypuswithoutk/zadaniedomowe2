@@ -1,40 +1,38 @@
-.head,
-.footer {
-    width: 100%;
-}
-
-
-@media all and (min-width:992px) {
+@media all and (max-width:992px) {
     
 
     .left {
-        width: 20%
+        flex-basis: 100%;
+        order: 2;
+
     }
 
     .center {
-       width: 80%
+       flex-basis: 70%
     }
 
     .right {
-        width: 100%;
-    }
-    .footer {
-        width: 100%;
-    }
-  }
-
-  @media all and (max-width:768px){
-    .main-container {
-        background-color: coral;
-        width: 35%;
+        flex-basis: 30%;
     }
     
   }
 
-  @media all and (max-width: 500px) {
-    .head,
-    .footer,
-    .flex-item {
-        width: 100%;
+
+  @media all and (max-width:768px) {
+
+    .left {
+        flex-basis: 100%;
+        order: 2;
     }
-}
+
+    .right {
+        flex-basis: 100%;
+        order: 3;
+    }
+
+    .center {
+        flex-basis: 100%;
+        order: 1;
+    }
+
+  }
