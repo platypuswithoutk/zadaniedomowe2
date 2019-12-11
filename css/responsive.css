@@ -1,0 +1,40 @@
+.head,
+.footer {
+    width: 100%;
+}
+
+
+@media all and (min-width:992px) {
+    
+
+    .left {
+        width: 20%
+    }
+
+    .center {
+       width: 80%
+    }
+
+    .right {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+  }
+
+  @media all and (max-width:768px){
+    .main-container {
+        background-color: coral;
+        width: 35%;
+    }
+    
+  }
+
+  @media all and (max-width: 500px) {
+    .head,
+    .footer,
+    .flex-item {
+        width: 100%;
+    }
+}
