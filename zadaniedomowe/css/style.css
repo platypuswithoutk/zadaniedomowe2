@@ -1,0 +1,57 @@
+* {        
+    box-sizing: border-box;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    color: white; 
+    text-align: center;
+    padding: 7px;
+}
+
+.head {
+    background-color: red;
+    height: 40px;
+    
+}
+
+#container {
+    display: flex;
+    height: 220px;
+    
+}
+
+.left {
+    background-color: green;
+    flex-basis: 20%;
+
+
+}
+
+.center {
+    background-color: rgb(110, 110, 252);
+    flex-basis: 60%;
+}
+
+.right {
+    background-color: pink;
+    flex-basis: 20%;
+}
+
+footer {
+    background-color: rgb(136, 75, 136);
+    position: relative;
+    bottom: 30px;
+    height: 40px;
+    
+}

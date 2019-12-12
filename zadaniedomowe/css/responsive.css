@@ -1,0 +1,37 @@
+@media all and (max-width: 768px) {
+     header, footer {
+        width: 29%;
+        background-color: brown;
+    }
+
+    .right, .center, .left {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    header, footer {
+        width: 100%;   
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 992px) {
+    header, section, footer {
+        width: 100%;
+    }
+}
+
+
+
